@@ -41,7 +41,9 @@
       <!-- Form input -->
 
       <form>
+        <div class="caption">Let's Do This!</div>
         <div class="form-data">
+          
           <div class="form-center">
 
             <!-- Text -->
@@ -51,8 +53,8 @@
             </div>
   
             <div class="last-name">
-              <input type="text" id="Last-name" name="text" required />
               <label for="Last-name">Last Name</label>
+              <input type="text" id="Last-name" name="text" required />
             </div>
   
             <!-- Email -->
@@ -70,11 +72,11 @@
             <!-- Password -->
             <div class="password">
               <label for="password">Password</label>
-              <input type="password" id="password" name="password" required />
+              <input type="password" id="password" name="password" required minlength="8" maxlength="24"/>
             </div>
             <div class="confirm-pass">
               <label for="confirm">Confirm Password</label>
-              <input type="password" id="confirm" name="password" required />
+              <input type="password" id="confirm" name="password" required minlength="8" maxlength="24" />
             </div>
           </div>
         </div>
